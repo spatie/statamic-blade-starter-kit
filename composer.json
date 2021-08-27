@@ -1,0 +1,9 @@
+{
+    "name": "spatie/statamic-blade-starter-kit",
+    "extra": {
+        "statamic": {
+            "name": "Blade Starter Kit",
+            "description": "The default statamic/statamic starter, but with Laravel Blade"
+        }
+    }
+}
