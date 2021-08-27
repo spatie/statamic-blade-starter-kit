@@ -2,6 +2,11 @@
 
 The default statamic starter project, but with Laravel Blade.
 
+## Features
+
+- Laravel Blade views
+- Automatic augmentation using the [Statamic Blade](https://github.com/edalzell/statamic-blade) package
+
 ## Support us
 
 [<img src="https://github-ads.s3.eu-central-1.amazonaws.com/spatiebe.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/spatie.be)

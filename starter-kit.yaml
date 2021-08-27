@@ -1,2 +1,5 @@
 export_paths:
+  - config/app.php
   - resources/views
+dependencies:
+  edalzell/blade-directives: ^3.5
