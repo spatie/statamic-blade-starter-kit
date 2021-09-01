@@ -9,7 +9,11 @@
     </head>
     <body class="bg-gray-100 font-sans leading-normal text-gray-800">
         <div class="mx-auto px-2 h-screen flex items-center justify-center">
-            @yield('content')
+            @if(! empty($template_content))
+                {!! $template_content !!}
+            @else
+                @yield('content')
+            @endisset
         </div>
         <script src="{{ mix('/js/site.js') }}"></script>
     </body>
